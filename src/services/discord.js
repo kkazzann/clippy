@@ -47,7 +47,7 @@ export async function postClipsToDiscord(clips) {
       thread = await clips_forum.threads.create({
         name: thread_name,
         message: {
-          content: `_ _\n 🤖  Posty tworzone automatycznie przez Clippy (gra: ${game.name})\n${game.url}\n_ _\nDowiedz się więcej o [@clippy](https://kznlabs.com/@clippy)\n_ _`
+          content: `_ _\n 🤖  Posty tworzone automatycznie przez Clippy (gra: ${game.name})\n${game.url}\n_ _\nDowiedz się więcej o [Clippy](https://kznlabs.com/clippy)\n_ _`
         }
       });
 
