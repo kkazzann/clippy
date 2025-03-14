@@ -11,7 +11,7 @@ scheduleJob(tokenFetchInterval, async () => {
   logInfo("Twitch Token scheduler running!");
 
   const newToken = await getTwitchToken();
-  setAccessToken(newToken);
+  await setAccessToken(newToken);
 });
 
 scheduleJob(clipsFetchInterval, async () => {

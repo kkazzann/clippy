@@ -20,7 +20,7 @@ const DISCORD_CHANNEL_ID = process.env.DISCORD_CHANNEL_ID;
 // └───────────────────────── second (0 - 59, OPTIONAL)
 
 // interval (in minutes) between fetching new clips:
-const clipsFetchInterval = "* */10 * * * *";
+const clipsFetchInterval = "* */1 * * * *";
 
 // interval (in hours) between refreshing Twitch token
 const tokenFetchInterval = "* * */4 * * *";
